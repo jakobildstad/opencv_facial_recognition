@@ -15,9 +15,11 @@ face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
 )
 
+name = "jakob"
+
 # Folders
-raw_folder = "/Users/jakobildstad/Documents/Projects/opencv_facial_recognition/raw_training_data_jakob"
-processed_folder = "/Users/jakobildstad/Documents/Projects/opencv_facial_recognition/processed_training_data_jakob"
+raw_folder = "/Users/jakobildstad/Documents/Projects/opencv_facial_recognition/raw_training_data/" + name
+processed_folder = "/Users/jakobildstad/Documents/Projects/opencv_facial_recognition/processed_training_data/" + name
 
 
 # Iterate through each file in the raw_folder
