@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 # Path to your processed training data
-data_path = "/Users/jakobildstad/Documents/Projects/opencv_facial_recognition/processed_training_data"
+data_path = "/Users/jakobildstad/Documents/Projects/opencv_facial_recognition_private/processed_training_data"
 
 # Lists to hold face samples and corresponding labels
 face_samples = []

@@ -18,8 +18,8 @@ face_cascade = cv2.CascadeClassifier(
 name = "jakob"
 
 # Folders
-raw_folder = "/Users/jakobildstad/Documents/Projects/opencv_facial_recognition/raw_training_data/" + name
-processed_folder = "/Users/jakobildstad/Documents/Projects/opencv_facial_recognition/processed_training_data/" + name
+raw_folder = "/Users/jakobildstad/Documents/Projects/opencv_facial_recognition_private/raw_training_data/" + name
+processed_folder = "/Users/jakobildstad/Documents/Projects/opencv_facial_recognition_private/processed_training_data/" + name
 
 
 # Iterate through each file in the raw_folder
