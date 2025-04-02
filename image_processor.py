@@ -8,6 +8,7 @@
 
 import cv2
 import os
+from PIL import Image
 
 # Path to the Haar cascade for face detection.
 # Adjust this path if needed or use another cascade.
@@ -26,9 +27,6 @@ processed_folder = "/Users/jakobildstad/Documents/Projects/opencv_facial_recogni
 for filename in os.listdir(raw_folder):
     # Check if the file is an image (basic check)
 
-    if filename.endswith(('.DNG')):
-        filename = filename.replace(".DNG", ".png")
-    
     if filename.lower().endswith(('.png', '.jpg', '.jpeg')):
         # Build the full path to the image
         raw_image_path = os.path.join(raw_folder, filename)
